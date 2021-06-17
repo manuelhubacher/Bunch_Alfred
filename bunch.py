@@ -8,11 +8,11 @@ items=cmd.stdout.decode('utf-8')
 def make_json_path(p):
     return {
         "title": p,
-        "subtitle": "run the {} Bunch".format(p),
+        "subtitle": "toggle the Bunch ‘{}’".format(p),
         "arg": p,
         }
 
 json_item = {}
-bunch_items = [x for x in items.split(',') if x]
+bunch_items = [x for x in items.split(', ') if x]
 json_item['items']=list(map(make_json_path, bunch_items))
 print(json.dumps(json_item))

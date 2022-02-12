@@ -108,6 +108,19 @@
 		</array>
 		<key>9742ED83-5307-4CA5-BAAC-0BEB4411CDB4</key>
 		<array/>
+		<key>AC982A8A-9B1A-4966-8106-84E6BD04977A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9F6FA9A-B9D0-47FE-9896-09E5CBD69BF2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C1E9CC6E-119E-4D51-BEE0-B8CDE9B9CF70</key>
 		<array>
 			<dict>
@@ -324,7 +337,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>obunch</string>
+				<string>bunched</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -345,7 +358,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Work with open Bunch</string>
+				<string>Close open Bunch</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -357,6 +370,19 @@
 			<string>E9F6FA9A-B9D0-47FE-9896-09E5CBD69BF2</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>close bunches</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>AC982A8A-9B1A-4966-8106-84E6BD04977A</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -625,7 +651,7 @@ copy the value in configDir and run this command in terminal
 		<key>53ABD444-7BB1-453E-9673-E26AA6DCB4AD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>515</integer>
+			<integer>520</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
@@ -670,6 +696,15 @@ copy the value in configDir and run this command in terminal
 			<key>ypos</key>
 			<integer>605</integer>
 		</dict>
+		<key>AC982A8A-9B1A-4966-8106-84E6BD04977A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
 		<key>C1E9CC6E-119E-4D51-BEE0-B8CDE9B9CF70</key>
 		<dict>
 			<key>colorindex</key>
@@ -691,7 +726,7 @@ copy the value in configDir and run this command in terminal
 		<key>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>520</integer>
+			<integer>595</integer>
 			<key>ypos</key>
 			<integer>175</integer>
 		</dict>

@@ -256,25 +256,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>x-bunch://close?bunch={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -320,6 +301,25 @@
 			<string>6BC0F4F9-AF18-4E97-BB9A-7C0E6D503A74</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>x-bunch://close?bunch={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -747,10 +747,8 @@ copy the value in configDir and run this command in terminal
 		<key>configDir</key>
 		<string>~/bunches</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>2021.04.011</string>
+	<string>2022.03.013</string>
 	<key>webaddress</key>
 	<string>https://kjaymiller.com</string>
 </dict>
